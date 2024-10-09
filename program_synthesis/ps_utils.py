@@ -1526,7 +1526,7 @@ LiteralSet = set(
     ]
 )
 LiteralReplacement = {
-    "NodeVariable": [NodeVariable(f"n{i}") for i in range(6)],
+    "NodeVariable": [NodeVariable(f"w{i}") for i in range(6)],
     "RelationVariable": [RelationVariable(f"r{i}") for i in range(6)],
     "EmptyProgram": [EmptyProgram()],
     "TrueValue": [TrueValue()],
